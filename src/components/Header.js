@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Div from '../styled/Div';
-import { StyledLink } from '../styled/Button';
+import React from "react";
+import { Link } from "react-router-dom";
+import Div from "../styled/Div";
+import { StyledLink } from "../styled/Button";
 
 const Header = () => {
   return (

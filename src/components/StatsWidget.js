@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import Div from '../styled/Div';
+import React from "react";
+import styled from "styled-components";
+import Div from "../styled/Div";
 
 const StatsWidget = ({ totalPostCount, totalWordCount }) => {
   return (

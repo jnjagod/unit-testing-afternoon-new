@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import PostWidget from '../components/PostWidget';
-import Div from '../styled/Div';
-import Loading from '../components/Loading';
-import axios from 'axios';
+import React, { Component } from "react";
+import PostWidget from "../components/PostWidget";
+import Div from "../styled/Div";
+import Loading from "../components/Loading";
+import axios from "axios";
 
 export default class Landing extends Component {
   constructor() {
     super();
     this.state = {
-      posts: [],
+      posts: []
     };
   }
 
   async componentDidMount() {
-    const { data } = await axios.get('/api/posts');
+    const { data } = await axios.get("/api/posts");
     this.setState({ posts: data });
   }
 

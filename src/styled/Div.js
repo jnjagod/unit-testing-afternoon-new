@@ -1,16 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Div = styled.div`
-  padding: ${({ padding = '1.5em' }) => padding};
+  padding: ${({ padding = "1.5em" }) => padding};
   background-color: ${({ filled, theme }) =>
     filled ? theme[filled] : theme.clear};
-  position: ${({ position = 'initial' }) => position};
+  position: ${({ position = "initial" }) => position};
   ${({
     flexed,
-    justify = 'initial',
-    align = 'initial',
-    direction = 'row',
-    wrap = 'nowrap',
+    justify = "initial",
+    align = "initial",
+    direction = "row",
+    wrap = "nowrap"
   }) =>
     flexed
       ? `
@@ -20,7 +20,7 @@ const Div = styled.div`
         align-items: ${align};
         flex-wrap: ${wrap};
         `
-      : ''};
+      : ""};
 `;
 
 export default Div;

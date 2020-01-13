@@ -1,16 +1,16 @@
-import React from 'react';
-import './App.css';
-import { Switch, Route } from 'react-router-dom';
-import User from './views/User';
-import Landing from './views/Landing';
-import Post from './views/Post';
-import NotFound from './views/NotFound';
-import Header from './components/Header';
-import { ThemeProvider } from 'styled-components';
+import React from "react";
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import User from "./views/User";
+import Landing from "./views/Landing";
+import Post from "./views/Post";
+import NotFound from "./views/NotFound";
+import Header from "./components/Header";
+import { ThemeProvider } from "styled-components";
 
 const theme = {
-  dark: '#252525',
-  clear: 'white',
+  dark: "#252525",
+  clear: "white"
 };
 
 const App = () => {
